@@ -13,7 +13,7 @@ body {
     background-color: white;
     position: absolute;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     top: 0;
     border-bottom: 2px solid #cccccc;
 }
@@ -22,7 +22,7 @@ body {
     background-color: white;
     margin: auto;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 40px;
     position: relative;
     top: 0;
     width: 960px;
@@ -34,7 +34,7 @@ body {
     padding: 20px 40px 20px 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
     color: white;
     position: absolute;
     bottom: 0px;
@@ -48,7 +48,7 @@ body {
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 a:link {
     color: #777777;
@@ -193,4 +193,84 @@ input[type=submit] {
     box-shadow: none;
     border-radius: 0px;
     font-size: 16px;
+}
+
+@media screen and (max-width: 980px) {
+    
+    #name {
+        float: left;
+        background-color: #4aaaa5;
+        padding: 28px 20px 28px 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 20px;
+    }
+
+    #mainabout{
+        float: left;
+        margin-left: 20px;
+        width: 700px;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+  }
+
+@media screen and (max-width: 768px) {
+
+    #mainabout{
+        float: left;
+        margin-left: 20px;
+        width: 600px;
+    }
+
+    #header {
+        width: 100%;
+    }
+    
+  }
+
+@media screen and (max-width: 640px) {
+    
+    #top {
+        display: none;
+    }
+
+    #name {
+        float: left;
+        width: 100%;
+        left: 0;
+        clear: both;
+    }
+
+    #header {
+        width: 100%;
+        position: relative;
+    }
+
+    #nav {
+        float: left;
+        background-color: #ffffff;
+        color: #cccccc;
+        padding: 20px 40px 20px 40px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        position: absolute;
+        width: 100%;
+        bottom: -36px;
+        left: 0px;
+        margin-bottom: -20px;
+    }
+
+    #mainabout{
+      margin-top: 56px;
+      width: 500px;
+    }
+
+    img.index {
+        float: none;
+        width: 450px;
+    }
+
 }
