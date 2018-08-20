@@ -216,6 +216,27 @@ input[type=submit] {
         width: 100%;
     }
 
+    .portimg {
+        width: 350px;
+    }
+
+    #mainportfolio{
+        width: 780px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #portcol1 {
+        width: 375px;
+    }
+
+    .portimgtxt {
+        padding: 15px;
+        width: 350px;
+    }
+
+
+    
   }
 
 @media screen and (max-width: 768px) {
@@ -230,6 +251,25 @@ input[type=submit] {
         width: 100%;
     }
     
+    .portimg {
+        width: 300px;
+    }
+
+    #mainportfolio{
+        width: 680px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #portcol1 {
+        width: 330px;
+    }
+
+    .portimgtxt {
+        padding: 15px;
+        width: 300px;
+    }
+
   }
 
 @media screen and (max-width: 640px) {
@@ -273,4 +313,48 @@ input[type=submit] {
         width: 450px;
     }
 
+    #mainportfolio {
+        width: 500px;
+        margin: auto;
+        margin-top: 70px;
+        padding: 0px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 100px;
+    }
+
+    #portcol1 {
+        margin: auto;
+        width: 500px;
+    }
+
+    #portcol2 {
+        padding-top: 0px;
+        margin: auto;
+        width: 500px;
+    }
+    
+    .portimg {
+        display: block;
+        width: 430px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .portimgtxt {
+        width: 430px;
+        left: 35px;
+        bottom: 10px;
+    }
+
+    .imgcontainer {
+        margin: auto;
+        width: 500px;
+    }
+
+    h1 {
+        width: 430px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
