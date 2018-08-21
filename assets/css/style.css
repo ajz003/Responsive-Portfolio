@@ -101,6 +101,19 @@ h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    -webkit-animation: slideinleft 2s;
+}
+
+@-webkit-keyframes slideinleft {
+    from {
+        margin-left:100%;
+        width:300%
+      }
+      
+      to {
+        margin-left:0%;
+        width:100%;
+      }
 }
 
 #contacth1 {
@@ -110,6 +123,8 @@ h1 {
     padding-bottom: 20px;
     border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    -webkit-animation: slideinleft 2s;
+    position: relative;
 }
 
 img.index {
@@ -117,6 +132,14 @@ img.index {
     float: left;
     width: 200px;
     height: auto;
+    -webkit-animation: slideinright 4s;
+    position: relative;
+}
+
+@-webkit-keyframes slideinright {
+    0%  {right: 1000px;}
+    50% {right: 1000px;}
+    100% {right: 0px;}
 }
 
 #portcol1 {
@@ -124,6 +147,7 @@ img.index {
     width: 360px;
     padding-top: 40px;
     position: relative;
+    -webkit-animation: slideinright 4s;
 }
 
 #portcol2 {
@@ -131,11 +155,13 @@ img.index {
     width: 40%;
     padding-top: 40px;
     position: relative;
+    -webkit-animation: slideinright 4s;
 }
 
 .portimg {
     margin-bottom: 30px;
     position: relative;
+    
 }
 
 .portimgtxt {
@@ -361,12 +387,14 @@ input[type=submit] {
     #portcol1 {
         margin: auto;
         width: 500px;
+        -webkit-animation: slideinright 3s;
     }
 
     #portcol2 {
         padding-top: 0px;
         margin: auto;
         width: 500px;
+        -webkit-animation: slideinright 3s;
     }
     
     .portimg {
